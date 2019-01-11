@@ -10,7 +10,9 @@
 
 pandoc -s -o rapport_analyse.pdf rapport_analyse.md
 
-pandoc -s -o rapport_analyse.pdf --css pandoc.css rapport_pandoc.html
+pandoc rapport_analyse_2_avec_svg.md -f markdown -t html -s -o rapport_pandoc.html
+
+pandoc -s -o --css pandoc.css rapport_pandoc.html
 ~~~
 
 Fichier d'analyse en [PDF]() et [HTML]()
