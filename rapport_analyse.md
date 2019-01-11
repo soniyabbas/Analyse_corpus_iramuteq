@@ -180,7 +180,23 @@ Ensuite, nous avons fait les mêmes analyses que dans la deuxième étape.
   <img src="https://github.com/soniyabbas/Analyse/blob/master/images/afc-lit.png">
 </p>
 
+# Étape 4. Analyse chronologique (AFC)
+
+Pour cette étape on a fait un aute sous-corpus a la base du meta-données "date".
+
+Ce graphique est réalisé avec une fréquence de 30 en utilisant seulement les formes actives. Cela nous permet d'observer le fait qu'il y a des correspondances entre les textes, parmi les mots lesquels utilisés plus de 30 fois. 
+
+<p align="center">
+  <img src="https://github.com/soniyabbas/Analyse_iramuteq/blob/master/images/graph_afc_chrono.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/soniyabbas/Analyse_iramuteq/blob/master/images/afcf_chrono.png">
+</p>
+
 ---
 
-### Bilan
+### Conclusion
+
+Nous avons trouvé ce TD très enrichissant, malgré le démarrage lent dû au retard de l'obtention de certains textes. Nous avons pu travailler enfin sur un corpus entier de texte, et non pas un seul comme dans les exercices précédents. Grâce à l'encodage des méta-données, nous avons pu réaliser des analyses à plusieurs niveaux de variables et créer des sous-corpus. L'analyse du sous-corpus en français reflète bien les thèmes qui ont été les centres d'intérêts de Robert Escarpit tout au long de sa vie. Ces différentes thématiques ont pu être regroupées en classes et visualisées sous plusieurs formes. Le fait de pouvoir travailler un corpus sous Iramuteq nous a aussi permis de réaliser une analyse comparative : trouver les différences et les similitudes entre les deux grands champs d'étude de Robert Escarpit, l'Information-Communication et la Littérature.
 
