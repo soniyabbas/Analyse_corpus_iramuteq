@@ -1,6 +1,6 @@
 # Pandoc 
 
-À l'aide du Terminal et après l'installation du package supplémentaire LaTex on a pu appliquer les commandes suivantes et créé deux fichiers en formats PDF et HTML : 
+À l'aide du _Terminal_ et après l'installation du package supplémentaire _LaTex_ on a pu appliquer les commandes suivantes et créé deux fichiers en formats PDF et HTML : 
 
 ~~~
 1. cwd - pour voir où on se trouve (normalement /Users/*nom d'ordinateur/utilisatur*)
