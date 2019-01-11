@@ -59,7 +59,7 @@ En même temps le logiciel a généré des tableaux .CSV qui nous permettent de 
 - le nombre des mots qui ont été utilisé une fois dans le corpus.
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/statistique_generale.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/statistique_generale.png" alt="Statistique général du corpus scientifique en français>
 </p>
 
 ### Nuage de mots
@@ -69,7 +69,7 @@ Cette analyse est assez simple et représente juste une illustration à partir d
 Là, on voit que des sujets principaux des 19 textes sont autour des mots _"communication", "information", "livre", "masse", "littérature", etc_. 
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/nuage_1.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/nuage_1.png" alt="Nuage de mots">
 </p>
 
 ### Méthode Reinert
@@ -81,7 +81,7 @@ Sur ce graphique, on voit la liste des mots regroupés dans les classes différe
 Cette analyse a regroupé notre corpus dans _6 classes_. 
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/dendrogramme_fr.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/dendrogramme_fr.png" alt="Dendrograme du corpus en français">
 </p>
 
 Ce monde lexical renvoie de façon évidente aux domaines de l'information et la communication. En fonction des branches, on a des liaisons entre les mots.
@@ -93,7 +93,7 @@ Ce type d'analyse nous propose de voir la classification hiérarchique descendan
 Ce sont les visualisations liées à l'analyse factorielle de correspondance mais réalisées à la base de l'analyse Reinert. On peut prendre pour hypothèse que les _5 classes mélangées décrivent le corpus principal ; une autre jouent un rôle secondaire_.
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/fr_frequence.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/fr_frequence.png" alt="Analyse factorielle des correspondances">
 </p>
 
 Deux graphiques suivants sont modifiés en fonction de critères supplémentaires (_dans ce cas, cela rend les graphes illisibles_).
@@ -101,13 +101,13 @@ Deux graphiques suivants sont modifiés en fonction de critères supplémentaire
 ##### Graphe des classes avec taille des mots proportionnelle à leur fréquence
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/graph_afc_frequence.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/graph_afc_frequence.png" alt="Analyse factorielle des correspondances, la taille des mots proportionnelle à leur fréquence">
 </p>
 
 ##### Graphe des classes avec taille des mots proportionnelle à leur score de chi-2 
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/graph_afc_chi2.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/graph_afc_chi2.png" alt="Analyse factorielle des correspondances, la taille des mots proportionnelle à leur score de chi-2">
 </p>
 
 # Étape 3. Analyse comparative des textes de deux sujets en français
@@ -129,7 +129,7 @@ Ensuite, nous avons fait les mêmes analyses que dans la deuxième étape.
 | Moyenne d'occurrences par texte | 4917.45 |
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/resume-infocom.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/resume-infocom.png" alt="Statistique générale du corpus Infocom">
 </p>
 
 ### Lit - Statistiques générales
@@ -143,39 +143,39 @@ Ensuite, nous avons fait les mêmes analyses que dans la deuxième étape.
 | Moyenne d'occurrences par texte | 3650.50 |
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/resume-lit.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/resume-lit.png" alt="Statistique générale du corpus Littérature">
 </p>
 
 ### Infocom - Nuage de mots
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/nuage_infocom.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/nuage_infocom.png" alt="Nuage de mots du corpus Infocom">
 </p>
 
 ### Lit - Nuage de mots
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/nuage_lit.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/nuage_lit.png"  alt="Nuage de mots du corpus Littérature">
 </p>
 
 ### Infocom - Méthode Reinert et AFC
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/dendrogramme_infocom.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/dendrogramme_infocom.png" alt="Dendrograme du corpus Infocom">
 </p>
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/afc-infocom.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/afc-infocom.png" alt="Analyse factorielle des correspondances, Infocom">
 </p>
 
 ### Lit - Méthode Reinert et AFC
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/dendrogramme_lit.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/dendrogramme_lit.png" alt="Dendrograme du corpus Littérature">
 </p>
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/afc-lit.png">
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/afc-lit.png" alt="Analyse factorielle des correspondances, Littérature">
 </p>
 
 ### Bilan
@@ -189,11 +189,11 @@ Pour cette étape on a fait un autre sous-corpus à la base des métadonnées "d
 Ce graphique est réalisé avec une fréquence de 30 en utilisant seulement les formes actives. Cela nous permet d'observer le fait qu'il y a des correspondances entre les textes, parmi les mots lesquels utilisés plus de 30 fois. Sur le premier graphe on voit les répartitions des mots les plus fréquents ainsi que la distribution de la dépendance par rapport des variables "date" (l'image suivante).
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse_iramuteq/blob/master/images/graph_afc_chrono.png">
+  <img src="https://github.com/soniyabbas/Analyse_iramuteq/blob/master/images/graph_afc_chrono.png" alt="Analyse factorielle des correspondances du corpus sur les dates">
 </p>
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse_iramuteq/blob/master/images/afcf_chrono.png">
+  <img src="https://github.com/soniyabbas/Analyse_iramuteq/blob/master/images/afcf_chrono.png" alt="Analyse factorielle des correspondances du corpus sur les dates">
 </p>
 
 ---
