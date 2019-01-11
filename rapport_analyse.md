@@ -1,7 +1,7 @@
 ---
 title: Évaluation Iramuteq, Markdown & Pandoc
 author: Soniya Abbas ; Ophélie Hersant
-date: 10/01/19
+date: 10/01/2019
 ---
 
 # Description 
@@ -32,8 +32,8 @@ Bilan : 23 variables.
 
 Lien vers le fichier avec le corpus [.txt](https://github.com/soniyabbas/Analyse/blob/master/textes_corrigés_corpus_Escarpit.txt)
 
->Suite à l'encodage effectué, on peut créer des sous-corpus différents. On est obligé de faire cette action car le corpus général est trop lourd - les visualisations ne sont pas représentables ou lisibles (on ajoute dans ce dossier seulement quelques visualisations réalisées pour montrer ce problème). 
->C'est pourquoi, on va analyser le sous-corpus regroupé par la méta-données "langue_français" (les autres langues ne sont pas pertinentes dans cette analyse). Puis, on va créer encore un sous-corpus par thèmes pour comparer les lexiques de thématiques différentes (on a pris deux thèmes : information-communication et littérature).
+>Suite à l'encodage effectué, on peut créer des sous-corpus différents. On est obligé de faire cette action car le corpus général est trop lourd - les visualisations ne sont pas représentables ou lisibles. 
+>C'est pourquoi, on va analyser le sous-corpus regroupé par la méta-données "langue_français" (les autres langues ne sont pas pertinentes dans cette analyse). Puis, on va créer encore un sous-corpus par thèmes pour comparer les lexiques de thématiques différentes (on a pris deux thèmes : information-communication et littérature). 
 
 # Étape 2. Analyse du sous-corpus en français
 
@@ -180,13 +180,13 @@ Ensuite, nous avons fait les mêmes analyses que dans la deuxième étape.
 
 ### Bilan
 
-Du coup après toutes les analyses effectuées, il convient de noter que les textes de deux sous-corpus analysés sont diffèrents les uns des autres. Tout d'abord par le fait que le premier est plus grand. Il contient 11 textes, le second seulement 2. C'est-à-dire que dans toute la masse des articles/textes que nous avons fournis, la majorité a été ecrit par Robert Escarpit sur le thème "infocom". En outre, en ragardant les nuages de mots, nous pouvons dire que dans le sous-corpus "infocom" répète certains mots de la deuxième sous-corpus, cependant les analyses  suivantes clairement subdiviseent les sujets et en même temps le vocubular touché dans chacun des cas.
+Du coup après toutes les analyses effectuées, il convient de noter que les textes de deux sous-corpus analysés sont différents les uns des autres. Tout d'abord par le fait que le premier est plus grand. Il contient 11 textes, le second seulement 2. C'est-à-dire que dans toute la masse des articles/textes que nous avons fournis, la majorité a été ecrit par Robert Escarpit sur le thème "Infocom". En outre, en regardant les nuages de mots, nous pouvons dire que dans le sous-corpus "Infocom" répète certains mots de la deuxième sous-corpus, cependant les analyses  suivantes clairement subdiviseent les sujets et en même temps le vocubular touché dans chacun des cas.
 
 # Étape 4. Analyse chronologique (AFC)
 
-Pour cette étape on a fait un aute sous-corpus a la base du meta-données "date".
+Pour cette étape on a fait un autre sous-corpus à la base des métadonnées "date".
 
-Ce graphique est réalisé avec une fréquence de 30 en utilisant seulement les formes actives. Cela nous permet d'observer le fait qu'il y a des correspondances entre les textes, parmi les mots lesquels utilisés plus de 30 fois. Sur le premier graphe on vois les repartition des mot les plus frequante ainsi que la distribution de la dépendance par rapport des varibales "date" (l'image suivante).
+Ce graphique est réalisé avec une fréquence de 30 en utilisant seulement les formes actives. Cela nous permet d'observer le fait qu'il y a des correspondances entre les textes, parmi les mots lesquels utilisés plus de 30 fois. Sur le premier graphe on voit les répartitions des mots les plus fréquents ainsi que la distribution de la dépendance par rapport des variables "date" (l'image suivante).
 
 <p align="center">
   <img src="https://github.com/soniyabbas/Analyse_iramuteq/blob/master/images/graph_afc_chrono.png">
@@ -203,20 +203,24 @@ Ce graphique est réalisé avec une fréquence de 30 en utilisant seulement les 
 Nous avons trouvé ce TD très enrichissant, malgré le démarrage lent dû au retard de l'obtention de certains textes. Nous avons pu travailler enfin sur un corpus entier de texte, et non pas un seul comme dans les exercices précédents. Grâce à l'encodage des méta-données, nous avons pu réaliser des analyses à plusieurs niveaux de variables et créer des sous-corpus. L'analyse du sous-corpus en français reflète bien les thèmes qui ont été les centres d'intérêts de Robert Escarpit tout au long de sa vie. Ces différentes thématiques ont pu être regroupées en classes et visualisées sous plusieurs formes. Le fait de pouvoir travailler un corpus sous Iramuteq nous a aussi permis de réaliser une analyse comparative : trouver les différences et les similitudes entre les deux grands champs d'étude de Robert Escarpit, l'Information-Communication et la Littérature.
 
 
-Sur [Github.com](https://github.com/soniyabbas/Analyse_iramuteq) vous pouvez regarder le dossier complet.
+Sur [Github.com](https://github.com/soniyabbas/Analyse_corpus_iramuteq) vous pouvez regarder le dossier complet.
 
 # P.S. Pandoc
 
-Dans le dernier étape de notre travail a été réalisé la conversion du fichier **.md** en **pdf** et **html**. Tout d'abord, on a telecharger le travail fait sur Github et changé les liens vers les photos sur les liens locaux. 
+Dans la dernière étape de notre travail a été réalisé la conversion du fichier **.md** en **PDF** et **HTML**. Tout d'abord, on a téléchargé le travail fait sur Github et changé les liens vers les photos sur les liens locaux (pour le future fichier HTML, on a changé le format des photos en SVG). 
 
-Ensuite à l'aide du _Terminal_ et arès l'instalation du package supplimentaire _LaTex_ on a pu apllique ces deux commandes et créé deux fichiers demandés : 
+Ensuite à l'aide du _Terminal_  et après l'installation du package supplémentaire _LaTex_ on a pu appliquer ces deux commandes et créé deux fichiers demandés : 
 
 ~~~
+1. cwd - pour voir où on se trouve (normalement /Users/*nom d'ordinateur/utilisatur*)
+2. cd - changer le dossier où on va travailler avec notre fichier .md (cd /Users/*nom d'ordinateur/utilisatur*/desktop/analyse_corpus_iramuteq-master
+3. On applique des commendes qui nous aident à transformer le fichier en PDF et HTML :
+
 pandoc -s -o rapport_analyse.pdf rapport_analyse.md
 
 pandoc -s -o rapport_analyse.pdf --css pandoc.css rapport_pandoc.html
 ~~~
 
-Le résultat du travail en Pandoc est [là](??).
+Le résultat du travail en Pandoc est [là](https://github.com/soniyabbas/Analyse_corpus_iramuteq/tree/master/resultat_pandoc).
 
 _Soniya ABBAS et Ophélie HERSANT_
