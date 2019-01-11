@@ -211,9 +211,11 @@ Dans le dernier étape de notre travail a été réalisé la conversion du fichi
 
 Ensuite à l'aide du _Terminal_ et arès l'instalation du package supplimentaire _LaTex_ on a pu apllique ces deux commandes et créé deux fichiers demandés : 
 
+~~~
 pandoc -s -o rapport_analyse.pdf rapport_analyse.md
 
 pandoc -s -o rapport_analyse.pdf --css pandoc.css rapport_pandoc.html
+~~~
 
 Le résultat du travail en Pandoc est [là](??).
 
