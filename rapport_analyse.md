@@ -59,7 +59,7 @@ En même temps le logiciel a généré des tableaux .CSV qui nous permettent de 
 - le nombre des mots qui ont été utilisé une fois dans le corpus.
 
 <p align="center">
-  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/statistique_generale.png" alt="Statistique général du corpus scientifique en français>
+  <img src="https://github.com/soniyabbas/Analyse/blob/master/images/statistique_generale.png" alt="Statistique général du corpus scientifique en français">
 </p>
 
 ### Nuage de mots
