@@ -12,3 +12,7 @@ pandoc -s -o rapport_analyse.pdf rapport_analyse.md
 
 pandoc -s -o rapport_analyse.pdf --css pandoc.css rapport_pandoc.html
 ~~~
+
+Fichier d'analyse en [PDF]() et [HTML]()
+
+Regarder l'analyse complète du corpus scientifique de Robert Escarpit [ici.](https://github.com/soniyabbas/Analyse_corpus_iramuteq/blob/master/rapport_analyse.md)
