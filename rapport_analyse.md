@@ -12,13 +12,21 @@ Dans le premier temps, on vous présenterai toutes les étapes techniques et pr�
 
 # Étap 1. Corpus 
 
-Pour commencer le travail on a pris les textes classés dans le _"Articles et Communications scientifiques"_ partagés par Lucie Vieillecroze dans le cadre du **projet ReNum**. Ces textes a été nettoyé car après la numérisation ils avaient beaucoup de fautes techniques. Ensuite, on les a regroupé sur (le drive)[https://drive.google.com/drive/u/0/folders/1Q9XiPuiUL8RnBsatS2sW_-IMrQ7uD2aX]
+Pour commencer le travail on a pris les textes classés dans le _"Articles et Communications scientifiques"_ partagés par Lucie Vieillecroze dans le cadre du **projet ReNum**. Ces textes a été nettoyé car après la numérisation ils avaient beaucoup de fautes techniques. Ensuite, on les a regroupé sur [le drive](https://drive.google.com/drive/u/0/folders/1Q9XiPuiUL8RnBsatS2sW_-IMrQ7uD2aX).
 
 Puis, nous avons nettoyé le texte en supprimant les notes et les références (parce que pendant la premiere analyse on avait pas mal des abriviations qui fait la partie des graphes). Enfin on a ajouté des variables qui nous ont permis d'encoder le texte et de l'importer dans Iramuteq. Le principe d'encodage est le suivant :
 
-> Variable : **** *subject_XXX *type_XXX *date_XXX *langue_XXX 
+> Variable : **** *categorie_XXX *categorie_XXX *categorie_XXX *categorie_XXX 
              *titre
 
-Bilan : 43 variables.
+On a intergé les meta-donnees suivants :
+- subject
+- type
+- date
+- langue
+- titre
 
-Lien vers le fichier avec le corpus (.txt)[]
+Bilan : 23 variables.
+
+Lien vers le fichier avec le corpus [.txt](https://github.com/soniyabbas/Analyse/blob/master/textes_corrigés_corpus_Escarpit.txt)
+
