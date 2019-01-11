@@ -206,5 +206,3 @@ Nous avons trouvé ce TD très enrichissant, malgré le démarrage lent dû au r
 Sur [Github.com](https://github.com/soniyabbas/Analyse_iramuteq) vous pouvez regarder le dossier complet.
 
 _Soniya ABBAS et Ophélie HERSANT_
-
-Nous avons trouvé ce TD très enrichissant, malgré le démarrage lent dû au retard de l'obtention de certains textes. Nous avons pu travailler enfin sur un corpus entier de texte, et non pas un seul comme dans les exercices précédents. Grâce à l'encodage des méta-données, nous avons pu réaliser des analyses à plusieurs niveaux de variables et créer des sous-corpus. L'analyse du sous-corpus en français reflète bien les thèmes qui ont été les centres d'intérêts de Robert Escarpit tout au long de sa vie. Ces différentes thématiques ont pu être regroupées en classes et visualisées sous plusieurs formes. Le fait de pouvoir travailler un corpus sous Iramuteq nous a aussi permis de réaliser une analyse comparative : trouver les différences et les similitudes entre les deux grands champs d'étude de Robert Escarpit, l'Information-Communication et la Littérature.
