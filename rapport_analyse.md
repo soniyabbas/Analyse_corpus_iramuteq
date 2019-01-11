@@ -39,7 +39,7 @@ Lien vers le fichier avec le corpus [.txt](https://github.com/soniyabbas/Analyse
 
 ### Statistiques générales
 
-Nous commençons par l'analyse du sous-corpus en français pour voir ses statistiques générales. On choisi tout par défaut pour obtenir le meilleur résultat dans le petit résumé sur l’information basique des textes :
+Nous commençons par l'analyse du sous-corpus en français pour voir _ses statistiques générales_. On choisi tout par défaut pour obtenir le meilleur résultat dans le petit résumé sur l’information basique des textes :
 
 | Facteur | Quantité | Commentaire|
 | -------------| -------------| -------------|
@@ -54,9 +54,7 @@ Sur le graphique, on voit la dépendance, la fréquence des mots et la quantité
 En même temps le logiciel a généré des tableaux .CSV qui nous permettent de voir les données différentes : 
 - la fréquence décroissante des mots utilisés dans le corpus au total et leurs types,
 - les formes les plus actives sans les articles, propositions, verbes (être et avoir) etc. (les agents pareils : la fréquence et les types)
-
 >nous allons reprendre ces formes pour toutes nos analyses car elles sont plus pertinentes
-
 - les mots supplémentaires - secondaires,
 - le nombre des mots qui ont été utilisé une fois dans le corpus.
 
@@ -68,7 +66,7 @@ En même temps le logiciel a généré des tableaux .CSV qui nous permettent de 
 
 Cette analyse est assez simple et représente juste une illustration à partir des données que l'on utilise. Le but est de montrer l'ensemble des mots avec le plus grand nombre d'occurrences qui est déterminé par la taille de la police.
 
-Là, on voit que des sujets principaux des 19 textes sont autour des mots "communication", "information", "livre", "masse", "littérature", etc. 
+Là, on voit que des sujets principaux des 19 textes sont autour des mots _"communication", "information", "livre", "masse", "littérature", etc_. 
 
 <p align="center">
   <img src="https://github.com/soniyabbas/Analyse/blob/master/images/nuage_1.png">
@@ -80,7 +78,7 @@ C'est la classification hiérarchique descendante qui permet de regrouper des mo
 
 Sur ce graphique, on voit la liste des mots regroupés dans les classes différentes qui sont à leur tour associées. Une classe représente les formes.
 
-Cette analyse a regroupé notre corpus dans 6 classes. 
+Cette analyse a regroupé notre corpus dans _6 classes_. 
 
 <p align="center">
   <img src="https://github.com/soniyabbas/Analyse/blob/master/images/dendrogramme_fr.png">
@@ -92,7 +90,7 @@ Ce monde lexical renvoie de façon évidente aux domaines de l'information et la
 
 Ce type d'analyse nous propose de voir la classification hiérarchique descendante sur une variable ou sur un ensemble de variables. Elle organise les données, après transformation statistique, sous forme de graphique à deux dimensions pour montrer la différence entre les variables, ce que nous permet aussi de voir les liaisons entre la fréquence et le type de mot (la relation lexicale plus généralement). 
 
-Ce sont les visualisations liées à l'analyse factorielle de correspondance mais réalisées à la base de l'analyse Reinert. On peut prendre pour hypothèse que les 5 classes mélangées décrivent le corpus principal ; une autre jouent un rôle secondaire.
+Ce sont les visualisations liées à l'analyse factorielle de correspondance mais réalisées à la base de l'analyse Reinert. On peut prendre pour hypothèse que les _5 classes mélangées décrivent le corpus principal ; une autre jouent un rôle secondaire_.
 
 <p align="center">
   <img src="https://github.com/soniyabbas/Analyse/blob/master/images/fr_frequence.png">
@@ -116,7 +114,7 @@ Deux graphiques suivants sont modifiés en fonction de critères supplémentaire
 
 Afin de rendre l'analyse un peu plus précise, nous avons décidé de prendre comme exemple l'analyse de deux sujets (**information-communication et littérature**) que nous avons mis en évidence au cours de la phase de codage. Ces deux thèmes sont également parmi les textes en français.
 
-Dans un premier temps, on a créé deux sous-corpus à partir du sous-corpus des textes en français. Le premier "Infocom" qui possède les métas-données : "communication", "infocom" et "information scientifique". Le deuxieme "lit" : "litterature" et "littérature de masse". 
+Dans un premier temps, on a créé deux sous-corpus à partir du sous-corpus des textes en français. Le premier "Infocom" qui possède les métas-données : _"communication", "infocom" et "information scientifique"_. Le deuxieme "lit" : _"litterature" et "littérature de masse"_. 
 
 Ensuite, nous avons fait les mêmes analyses que dans la deuxième étape.
 
@@ -180,11 +178,15 @@ Ensuite, nous avons fait les mêmes analyses que dans la deuxième étape.
   <img src="https://github.com/soniyabbas/Analyse/blob/master/images/afc-lit.png">
 </p>
 
+### Bilan
+
+Du coup après toutes les analyses effectuées, il convient de noter que les textes de deux sous-corpus analysés sont diffèrents les uns des autres. Tout d'abord par le fait que le premier est plus grand. Il contient 11 textes, le second seulement 2. C'est-à-dire que dans toute la masse des articles/textes que nous avons fournis, la majorité a été ecrit par Robert Escarpit sur le thème "infocom". En outre, en ragardant les nuages de mots, nous pouvons dire que dans le sous-corpus "infocom" répète certains mots de la deuxième sous-corpus, cependant les analyses  suivantes clairement subdiviseent les sujets et en même temps le vocubular touché dans chacun des cas.
+
 # Étape 4. Analyse chronologique (AFC)
 
 Pour cette étape on a fait un aute sous-corpus a la base du meta-données "date".
 
-Ce graphique est réalisé avec une fréquence de 30 en utilisant seulement les formes actives. Cela nous permet d'observer le fait qu'il y a des correspondances entre les textes, parmi les mots lesquels utilisés plus de 30 fois. 
+Ce graphique est réalisé avec une fréquence de 30 en utilisant seulement les formes actives. Cela nous permet d'observer le fait qu'il y a des correspondances entre les textes, parmi les mots lesquels utilisés plus de 30 fois. Sur le premier graphe on vois les repartition des mot les plus frequante ainsi que la distribution de la dépendance par rapport des varibales "date" (l'image suivante).
 
 <p align="center">
   <img src="https://github.com/soniyabbas/Analyse_iramuteq/blob/master/images/graph_afc_chrono.png">
@@ -200,3 +202,9 @@ Ce graphique est réalisé avec une fréquence de 30 en utilisant seulement les 
 
 Nous avons trouvé ce TD très enrichissant, malgré le démarrage lent dû au retard de l'obtention de certains textes. Nous avons pu travailler enfin sur un corpus entier de texte, et non pas un seul comme dans les exercices précédents. Grâce à l'encodage des méta-données, nous avons pu réaliser des analyses à plusieurs niveaux de variables et créer des sous-corpus. L'analyse du sous-corpus en français reflète bien les thèmes qui ont été les centres d'intérêts de Robert Escarpit tout au long de sa vie. Ces différentes thématiques ont pu être regroupées en classes et visualisées sous plusieurs formes. Le fait de pouvoir travailler un corpus sous Iramuteq nous a aussi permis de réaliser une analyse comparative : trouver les différences et les similitudes entre les deux grands champs d'étude de Robert Escarpit, l'Information-Communication et la Littérature.
 
+
+Sur [Github.com](https://github.com/soniyabbas/Analyse_iramuteq) vous pouvez regarder le dossier complet.
+
+_Soniya ABBAS et Ophélie HERSANT_
+
+Nous avons trouvé ce TD très enrichissant, malgré le démarrage lent dû au retard de l'obtention de certains textes. Nous avons pu travailler enfin sur un corpus entier de texte, et non pas un seul comme dans les exercices précédents. Grâce à l'encodage des méta-données, nous avons pu réaliser des analyses à plusieurs niveaux de variables et créer des sous-corpus. L'analyse du sous-corpus en français reflète bien les thèmes qui ont été les centres d'intérêts de Robert Escarpit tout au long de sa vie. Ces différentes thématiques ont pu être regroupées en classes et visualisées sous plusieurs formes. Le fait de pouvoir travailler un corpus sous Iramuteq nous a aussi permis de réaliser une analyse comparative : trouver les différences et les similitudes entre les deux grands champs d'étude de Robert Escarpit, l'Information-Communication et la Littérature.
